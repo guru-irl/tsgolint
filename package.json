@@ -1,0 +1,15 @@
+{
+  "name": "tsgolint-disable-next-line-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compare": "node compare.mjs"
+  },
+  "devDependencies": {
+    "oxlint": "1.87.0",
+    "tsgolint-0.25.0": "npm:oxlint-tsgolint@0.25.0",
+    "tsgolint-7.0.2001": "npm:oxlint-tsgolint@7.0.2001",
+    "tsgolint-7.0.2002": "npm:oxlint-tsgolint@7.0.2002",
+    "tsgolint-7.0.2003": "npm:oxlint-tsgolint@7.0.2003"
+  }
+}

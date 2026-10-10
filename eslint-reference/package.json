@@ -1,0 +1,13 @@
+{
+  "name": "eslint-reference",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "cd .. && eslint-reference/node_modules/.bin/eslint --config eslint-reference/eslint.config.mjs src"
+  },
+  "devDependencies": {
+    "eslint": "9.39.5",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.0"
+  }
+}
